@@ -21,7 +21,7 @@ import javax.annotation.security.RolesAllowed;
 
 @PageTitle("Trainer List")
 @Route(value = "trainers-list", layout = MainLayout.class)
-@RolesAllowed("user")
+@RolesAllowed("admin")
 public class TrainerListView extends Div implements AfterNavigationObserver {
 
     Grid<Person> grid = new Grid<>();

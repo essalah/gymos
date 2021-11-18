@@ -27,7 +27,7 @@ import com.vaadin.flow.data.renderer.TemplateRenderer;
 
 @PageTitle("New Member")
 @Route(value = "new-member-form", layout = MainLayout.class)
-@RolesAllowed("user")
+@RolesAllowed("admin")
 @Uses(Icon.class)
 public class NewMemberView extends Div {
 
